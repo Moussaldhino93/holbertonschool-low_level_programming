@@ -1,4 +1,2 @@
 #!/bin/bash
-puts (Programming is like building a multilingual puzzle)
-puts ("")
-return 0
+puts 'Programming is like building a multilingual puzzle'
