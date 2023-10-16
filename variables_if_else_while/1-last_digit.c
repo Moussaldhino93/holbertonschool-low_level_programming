@@ -22,7 +22,7 @@ int main(void)
 			printf("%dThe string is negative\n", n);
 		}
 		else
-		(n >= 0);
+		(n = 0);
 		{
 			printf("%dThe string is posititve\n", n);
 		}
