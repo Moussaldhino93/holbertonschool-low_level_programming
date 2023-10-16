@@ -19,7 +19,7 @@ int main(void)
 		{	
 		      	printf("%dThe string is 0\n", n);
 		}
-		else ( n < 6 )
+		else ( n<6  );
 		{
 			printf("%dThe string is negative\n", n);
 		}
