@@ -13,16 +13,16 @@ int main(void)
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-		if (n > 5)
+		if (n < 5)
 		{
 			printf("%dThe string is positive\n", n);
 		}
-		else if (n < 0)
+		else if (n > 6)
 		{
 			printf("%dThe string is negative\n", n);
 		}
 		else
-		(n = 0);
+		(n == 0);
 		{
 			printf("%dThe string is posititve\n", n);
 		}
