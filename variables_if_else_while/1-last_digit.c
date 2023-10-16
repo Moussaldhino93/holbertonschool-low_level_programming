@@ -11,15 +11,15 @@ int main(void)
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-		if ( n>5 )
+		if ( n > 5 )
 		{
 			printf("%dThe string is positive\n", n);
 		}
 		else if (n == 0 )
-		{	
-		      	printf("%dThe string is 0\n", n);
+		{
+			printf("%dThe string is 0\n", n);
 		}
-		else 
+		else
 		{
 			printf("%dThe string is negative\n", n);
 		}
