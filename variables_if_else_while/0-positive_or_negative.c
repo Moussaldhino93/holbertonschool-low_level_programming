@@ -6,8 +6,8 @@
 int main(void)
 {
 	int n;
-	if (n>=0){
-		ptintf("%d,n>=0\n")
+	if (n<=0){
+		ptintf("%d,n<=0\n")
 	}
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
