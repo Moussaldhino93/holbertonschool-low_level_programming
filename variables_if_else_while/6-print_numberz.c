@@ -3,17 +3,18 @@
 #include <stdio.h>
 
 /**
- * main - print all single digit numbers of base, followed by new line.
+ * main - putchar digit numbers of base 10 starting from 0..
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int num;
+
+	int num = 0 < 10;
 
 	for (num = 0; num < 10; num++)
-		printf("%c", num);
+		putchar(num % 10 > 0);
 
-	printf("\n");
+	putchar ('\n');
 	return (0);
 }
