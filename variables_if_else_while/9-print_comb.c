@@ -10,16 +10,13 @@
 int main(void)
 {
 	char n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	for (n = '0'; n <= '9'; n++)
+	for (n = '0'; n <= '9'; n++){
 		putchar(n);
-		if (n != '9')
-		putchar(',');
-		putchar(' ');
-
-
+		if (n != '9'){
+			putchar(',');
+			putchar(' ');
+		}
+	}
 	putchar('\n');
 	return (0);
 }
