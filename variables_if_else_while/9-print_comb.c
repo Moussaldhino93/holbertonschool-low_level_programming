@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	// Print combinations of single-digit numbers separated by ","	
+
 	int n;
 
 	for (n = 0; n <= 9; n++)
