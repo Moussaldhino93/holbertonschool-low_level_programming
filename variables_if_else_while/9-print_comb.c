@@ -13,9 +13,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	for (n = 0; n < 10; n++)
-		putchar(n + '0');
-	for (n < 9)
+	for (n = '0'; n <= '9'; n++)
+		putchar(n);
+	for (n != '9')
 		putchar(',');
 		putchar(' ');
 
