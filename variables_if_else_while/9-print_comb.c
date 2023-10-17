@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	for (n = '0'; n <= '9'; n++)
 		putchar(n);
-	for (n != '9');
+	for (n > '9');
 		putchar(',');
 		putchar(' ');
 
