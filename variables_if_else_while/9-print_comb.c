@@ -4,6 +4,7 @@
 
 /**
  * main - prints all possible combinations of single-digit numbers
+ *
  * Rerurn: Always 0 (Success)
  */
 
