@@ -9,13 +9,11 @@
 
 int main(void)
 {
-	int n;
+	int num;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
 
-	if (n < 10)
-		printf("starting from 0\n");
-
+	printf("\n");
 	return (0);
 }
