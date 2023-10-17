@@ -9,18 +9,17 @@
 
 int main(void)
 {
-	int n;
+
 	char l;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	for (l = 'a'; l <= 'z';'\n', l);
+	for (l = 'a'; l <= 'z'; l++);
 	{
 		putchar(l);
-	}
-	for (l = 'A'; l <= 'Z';'\n', l);
+	};
+	for (l ='A'; l<='Z'; l++);
 	{
 		putchar(l);
-	}
+	};
+	putchar ("\n");
 	return (0);
 }
