@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of single-digit numbers
+ * main - Entry point
+ *
+ * Description: 'prints all possible combinations of single-digit numbers'
  *
  * Rerurn: Always 0 (Success)
  */
