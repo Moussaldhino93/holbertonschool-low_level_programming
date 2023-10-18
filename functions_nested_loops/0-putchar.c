@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main"
+#include "mainh"
 
 	int main () {
 	putchar('\n');
