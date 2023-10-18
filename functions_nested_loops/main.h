@@ -1,4 +1,8 @@
-#include  <unistd.h>
+#include  <stdio.h>
 
 int _putchar(char c);
-int print_alphabet(char l);
+void print_alphabet(void);
+	int l;
+	putchar(l = 'a'; l <= 'z'; l++)
+	putchar('\n');
+	return (0);
