@@ -3,9 +3,8 @@
 
 void print_alphabet(void);
 {
-	char l; {
+	char l;
 	_putchar(l = 'a'; l<= 'z'; l++)
-		}
 	_putchar('\n');
 	return (0);
 }
