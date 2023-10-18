@@ -1,3 +1,4 @@
-void main.h() {
-	putchar('\n')
-}
+#include  <unistd.h>
+
+int _putchar(char c);
+

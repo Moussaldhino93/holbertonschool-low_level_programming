@@ -1,7 +1,14 @@
 #include <stdio.h>
-#include "mainh"
+#include "main.h"
 
-	int main () {
+/**
+ * main - prints _putchar, followed by a new line
+ *
+ * Return: Always 0 (Success)
+ */
+
+	int main (void) {
 	putchar('\n');
+	
+	return (0);
 	}
-	return (0);	
