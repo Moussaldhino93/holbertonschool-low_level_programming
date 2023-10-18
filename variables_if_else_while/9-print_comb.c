@@ -3,16 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: 'prints all possible combinations of single-digit numbers'
- *
+ * main - 'prints all possible combinations of single-digit numbers'
  * Rerurn: Always 0 (Success)
  */
 
-int main()
-{
 
+int main(void)
+{
 	int n;
 
 	for (n = 0; n <= 9; n++)
