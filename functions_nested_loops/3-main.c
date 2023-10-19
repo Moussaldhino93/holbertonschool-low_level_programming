@@ -1,5 +1,4 @@
-#include <ctype.h>
-#include "main.h"
+²#include "main.h"
 
 /**
  * main - check the code.
