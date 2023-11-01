@@ -14,6 +14,12 @@ int _sqrt_recursion(int n)
 	return -1;
 	}
 
-	double sqrt((double n));
-	return(_sqrt_recursion);	
+	sqrt((double n));
+	if (n == 0)
+	{
+	return (0);
+	}
+	else
+	{
+	return(_sqrt_recursion(n - 1));	
 }
